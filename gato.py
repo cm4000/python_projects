@@ -52,7 +52,7 @@ def pickslot(sym):
         try:
             slot=int(input('player {} where do yo want to play? '.format(sym)))
             while slot<1 or slot>9:
-                slot=int(input('please choose a number between 1-9: '))-1
+                slot=int(input('please choose a number between 1-9: '))
             a=0
         except:
             print('please input a number')
